@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aim Trainer</title>
+  <link rel="stylesheet" href="aimtrainer-style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="nav-btn">Home</a>
+      <a href="/sequence-memory" class="nav-btn">Sequence Memory</a>
+      <a href="reaction-time.html" class="nav-btn">Reaction Time</a>
+      <a href="leaderboard.html" class="nav-btn">Leaderboards</a>
+    </div>
+  </nav>
+  
+   <main>
+    <h2>Aim Trainer</h2>
+    <p>Press the start button to begin and hit as many of the targets in 1 minute. Press start to try again</p>
+    <div id="info">
+      <span id="score">Score: 0</span>
+      <span id="timer">Time: 60s</span>
+    </div>
+    <div id="game-box"></div>
+    <button id="start-btn">Start</button>
+  </main>
+  
+  <footer>
+    MindSharp
+  </footer>
+
+  <script src="aimtrainer.js"></script>
+</body>
+</html>
