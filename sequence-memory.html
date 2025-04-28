@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sequence Memory Game</title>
+  <link rel="stylesheet" href="sequencememory.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Sequence Memory</a>
+    <a href="#">Aim Trainer</a>
+    <a href="#">Leaderboards</a>
+  </nav>
+
+  <div class="container">
+    <h1>Sequence Memory Game</h1>
+    <button id="start-btn">Start Game</button>
+
+    <div class="game-area hidden">
+      <div class="game-board" id="game-board">
+        <div class="square" id="0"></div>
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+      </div>
+    </div>
+
+    <div class="end-screen hidden" id="end-screen">
+      <h2>Game Over</h2>
+      <p id="score">0</p>
+      <button id="restart-btn">Play Again</button>
+    </div>
+  </div>
+
+  <footer class="footer">MindSharp</footer>
+
+  <script src="sequencememory.js"></script>
+</body>
+</html>
